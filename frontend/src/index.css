@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Fix select element text visibility */
+select {
+  color: inherit;
+  background: inherit;
+}
+
+select option {
+  color: #1f2937;
+  background: #ffffff;
+}
+
+select option:checked {
+  background: linear-gradient(#667eea, #667eea);
+  background-color: #667eea;
+  color: white;
+}
+
+/* Fix input text visibility */
+input,
+textarea,
+select {
+  color: inherit;
+  font-family: inherit;
+}
+
+input::placeholder,
+textarea::placeholder {
+  opacity: 0.7;
+}
+
+/* Fix button text visibility */
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+/* Ensure all text is readable */
+* {
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Fix focus states for accessibility */
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+a:focus-visible {
+  outline: 2px solid #667eea;
+  outline-offset: 2px;
+}
