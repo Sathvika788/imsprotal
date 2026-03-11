@@ -35,7 +35,7 @@ export default function ResetPasswordPage() {
             <div className="inline-block mb-4">
               <Logo variant="icon" size="md" />
             </div>
-            <h1 style={{ color: colors.text }} className="text-2xl font-bold">
+            <h1 style={{ color: colors.text.primary }} className="text-2xl font-bold">
               Invalid Reset Link
             </h1>
           </div>
@@ -112,7 +112,7 @@ export default function ResetPasswordPage() {
                   ✓
                 </div>
               </div>
-              <h1 style={{ color: colors.text }} className="text-2xl font-bold">
+              <h1 style={{ color: colors.text.primary }} className="text-2xl font-bold">
                 Password Reset Successful!
               </h1>
             </div>
@@ -135,7 +135,7 @@ export default function ResetPasswordPage() {
               <div className="inline-block mb-4">
                 <Logo variant="icon" size="md" />
               </div>
-              <h1 style={{ color: colors.text }} className="text-2xl font-bold">
+              <h1 style={{ color: colors.text.primary }} className="text-2xl font-bold">
                 Reset Your Password
               </h1>
             </div>
